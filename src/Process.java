@@ -91,7 +91,7 @@ public class Process {
             if (dependencies.get(packag) != null){
                 for (String dependency : dependencies.get(packag)){
                     if(!dependency.equals(dependencies.get(packag).get(dependencies.get(packag).size()-1))){
-                        html += "<a href=\"#" + dependency + "\">" + dependency + "</a> , ";
+                        html += "<a href=\"#" + dependency + "\">" + dependency + "</a>, ";
                     }else{
                         html += "<a href=\"#" + dependency + "\">" + dependency + "</a>";
                     }
@@ -105,7 +105,7 @@ public class Process {
             if (revDependencies.get(packag) != null){
                 for (String revDependency : revDependencies.get(packag)){
                     if(!revDependency.equals(revDependencies.get(packag).get(revDependencies.get(packag).size()-1))){
-                        html += "<a href=\"#" + revDependency + "\">" + revDependency + "</a> , ";
+                        html += "<a href=\"#" + revDependency + "\">" + revDependency + "</a>, ";
                     }else{
                         html += "<a href=\"#" + revDependency + "\">" + revDependency + "</a>";
                     }
