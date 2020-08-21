@@ -74,7 +74,7 @@ public class Process {
 
     public void createHtml() throws Exception {
 
-        File htmlFile = new File("packages.html");
+        File htmlFile = new File("src/packages.html");
 
         String html = "<html>\n" +
                 " <head>Information about packages</head>\n" +
@@ -97,7 +97,7 @@ public class Process {
                     }
                 }
             } else {
-                html += "no dependencies";
+                html += " - ";
             }
 
             html += "\nReverse Dependencies: ";

@@ -1,3 +1,0 @@
-run:
-  web: packages.html
-  worker: MainActivity.java

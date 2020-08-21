@@ -1,0 +1,2 @@
+web: packages.html
+worker: java MainActivity.java
